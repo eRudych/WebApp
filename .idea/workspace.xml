@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WebApp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7aca9c7-7e81-4438-b662-b01a1ea5bc98" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="cashiers: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="check_contents: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="checks: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="documentation_of_work_with_checks: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="operations: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="products: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="storage_for_products: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckForProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="117" column="14" lean-forward="true" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/cashier/add_products.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="29" lean-forward="true" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="21" column="96" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/db/CashierInteract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+              <folding>
+                <element signature="e#85#86#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="jsf" />
+        <option value="Singleton" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/db/merchandise/createProduct/ProductСreaterInteract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/merchandise/createProduct/ProductСreater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/merchandise/createProduct/ProductAdder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" />
+        <option value="$PROJECT_DIR$/web/views/add.jsp" />
+        <option value="$PROJECT_DIR$/web/views/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entities/Product.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fee7ddfb-2413-40d6-acdb-b48d06e4681e/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/db/merchandise/setQuantity/SetQuantity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/CreateProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/merchandise/MerchandiseInteract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/SetQuantity.java" />
+        <option value="$PROJECT_DIR$/web/views/merchandise/create.jsp" />
+        <option value="$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp" />
+        <option value="$PROJECT_DIR$/web/views/import/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/ActiveCheck.java" />
+        <option value="$PROJECT_DIR$/web/views/cashier/open_check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/cashier/active_check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/check.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/db/CashierInteract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/AddProduct.java" />
+        <option value="$PROJECT_DIR$/web/views/cashier/add_products.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/CloseCheck.java" />
+        <option value="$PROJECT_DIR$/web/views/cashier/close_check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_check.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senoir_cashier/SelectCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senoir_cashier/CancelCheck.java" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/db/Interact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/OpenCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/SeniorCashierInteract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/InteractBd.java" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelCheck.java" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_check_for_product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashierForProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckForProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/ProductCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CanselProduct.java" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashForProduct.java" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectProduct.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="615" />
+    <option name="width" value="1310" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="cashier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="merchandise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="senior_cashier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="merchandise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="cashier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="import" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="merchandise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="senior_cashier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\WebApp\web\views\merchandise" />
+      <recent name="C:\Users\User\IdeaProjects\WebApp\web\WEB-INF\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\WebApp\db" />
+      <recent name="C:\Users\User\IdeaProjects\WebApp\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.index.jsp">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Main" />
+      <module name="WebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.20" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_WebApp_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5291" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jre-10.0.2">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_WebApp" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5253" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="file://$PROJECT_DIR$/web/index.jsp" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="WebApp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_WebApp" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5253" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WebApp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.index.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7aca9c7-7e81-4438-b662-b01a1ea5bc98" name="Default Changelist" comment="" />
+      <created>1559737725583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559737725583</updated>
+      <workItem from="1559737734948" duration="45670000" />
+      <workItem from="1560066874077" duration="92546000" />
+      <workItem from="1560517389992" duration="65920000" />
+      <workItem from="1560737228223" duration="6171000" />
+      <workItem from="1560873300450" duration="42229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="252536000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.15637584" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Console" order="1" sideWeight="0.4986577" weight="0.19971672" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.504698" side_tool="true" weight="0.42634562" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="7" sideWeight="0.49925372" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49530202" visible="true" weight="0.17422096" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="15" sideWeight="0.4986577" weight="0.4490085" />
+      <window_info anchor="bottom" id="Duplicates" order="16" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.2536913" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.15637584" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Console" order="1" sideWeight="0.4986577" weight="0.19971672" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.504698" side_tool="true" weight="0.42634562" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="7" sideWeight="0.49925372" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49530202" visible="true" weight="0.07648725" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="15" sideWeight="0.4986577" weight="0.4490085" />
+      <window_info anchor="bottom" id="Duplicates" order="16" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.2536913" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/OpenCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/AddProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/merchandise/CreateProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1561116825179" expanded="true" signature="404:443" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/CashEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/Cashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/FactoryCashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/Merchandise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-WebApp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-WebApp</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-WebApp</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.5" y="10.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/app.servlets">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>app.servlets</OriginalElement>
+          <nodes>
+            <node x="" y="">app.servlets.cashier</node>
+            <node x="" y="">app.servlets.AddServlet</node>
+            <node x="" y="">app.servlets.merchandise</node>
+            <node x="" y="">app.servlets.senior_cashier</node>
+            <node x="" y="">app.servlets.ListServlet</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="142.0" y="289.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">app</node>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">log</node>
+            <node x="" y="">org</node>
+            <node x="" y="">google</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">db</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="247.5" y="229.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/User/IdeaProjects/WebApp/web/views/senior_cashier">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/web/views/senior_cashier</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp</node>
+            <node x="" y="">https://www.w3schools.com/w3css/4/w3.css</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="284.0" y="143.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/User/IdeaProjects/WebApp/web/views">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/web/views</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/web/views/cashier/add_products.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/cashier/close_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/merchandise/create.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/cashier/open_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp</node>
+            <node x="" y="">https://www.w3schools.com/w3css/4/w3.css</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="370.5" y="244.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/User/IdeaProjects/WebApp/web">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/web</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/web/views/cashier/add_products.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/cashier/close_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/merchandise/create.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/index.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/cashier/open_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp</node>
+            <node x="" y="">$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp</node>
+            <node x="" y="">https://www.w3schools.com/w3css/4/w3.css</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="346.0" y="246.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/SeniorCashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/app">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>app</OriginalElement>
+          <nodes>
+            <node x="415.29439484126993" y="351.0">app.servlets.senior_cashier.SelectCheckId</node>
+            <node x="577.54439484127" y="450.0">app.servlets.senior_cashier.CancelCheck</node>
+            <node x="611.1346726190477" y="252.0">db.InteractBd</node>
+            <node x="997.8333333333333" y="450.0">app.servlets.cashier.OpenCheck</node>
+            <node x="97.5" y="0.0">app.entities.Product</node>
+            <node x="572.29439484127" y="362.0">db.SeniorCashierInteract</node>
+            <node x="388.04439484126993" y="450.0">app.servlets.senior_cashier.SelectCheck</node>
+            <node x="0.0" y="522.0">app.servlets.senior_cashier.SelectSeniorCashier</node>
+            <node x="725.8333333333333" y="450.0">app.servlets.cashier.CloseCheck</node>
+            <node x="225.0" y="522.0">app.models.GroceryCheck</node>
+            <node x="861.8333333333333" y="450.0">app.servlets.cashier.AddProduct</node>
+            <node x="171.54439484126993" y="362.0">db.merchandise.MerchandiseInteract</node>
+            <node x="245.04439484126993" y="450.0">app.servlets.merchandise.SetQuantity</node>
+            <node x="88.04439484126993" y="450.0">app.servlets.merchandise.CreateProduct</node>
+            <node x="843.9590773809525" y="351.0">db.CashierInteract</node>
+            <node x="0.0" y="164.0">app.models.ProductList</node>
+            <node x="653.6346726190477" y="153.0">db.Interact</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="app.models.ProductList" target="app.entities.Product">
+              <point x="30.75" y="-13.5" />
+              <point x="92.25" y="133.0" />
+              <point x="117.64285714285717" y="133.0" />
+              <point x="-26.85714285714286" y="46.5" />
+            </edge>
+            <edge source="app.servlets.senior_cashier.CancelCheck" target="app.servlets.senior_cashier.SelectCheckId">
+              <point x="-30.75" y="-13.5" />
+              <point x="608.29439484127" y="425.0" />
+              <point x="518.0443948412699" y="425.0" />
+              <point x="34.25" y="24.5" />
+            </edge>
+            <edge source="db.Interact" target="app.entities.Product">
+              <point x="5.6843418860808015E-14" y="-24.5" />
+              <point x="717.6346726190478" y="113.0" />
+              <point x="184.78571428571428" y="113.0" />
+              <point x="40.28571428571428" y="46.5" />
+            </edge>
+            <edge source="app.servlets.cashier.OpenCheck" target="db.CashierInteract">
+              <point x="0.0" y="-13.5" />
+              <point x="1051.8333333333333" y="425.0" />
+              <point x="969.7924107142858" y="425.0" />
+              <point x="50.33333333333337" y="24.5" />
+            </edge>
+            <edge source="app.servlets.cashier.CloseCheck" target="db.CashierInteract">
+              <point x="0.0" y="-13.5" />
+              <point x="783.8333333333333" y="425.0" />
+              <point x="869.125744047619" y="425.0" />
+              <point x="-50.33333333333337" y="24.5" />
+            </edge>
+            <edge source="db.CashierInteract" target="db.InteractBd">
+              <point x="0.0" y="-24.5" />
+              <point x="919.4590773809525" y="326.0" />
+              <point x="717.8013392857144" y="326.0" />
+              <point x="42.666666666666686" y="24.5" />
+            </edge>
+            <edge source="db.merchandise.MerchandiseInteract" target="db.InteractBd">
+              <point x="45.0" y="-13.5" />
+              <point x="306.54439484126993" y="326.0" />
+              <point x="632.468005952381" y="326.0" />
+              <point x="-42.666666666666686" y="24.5" />
+            </edge>
+            <edge source="app.servlets.merchandise.SetQuantity" target="db.merchandise.MerchandiseInteract">
+              <point x="0.0" y="-13.5" />
+              <point x="45.0" y="13.5" />
+            </edge>
+            <edge source="db.merchandise.MerchandiseInteract" target="app.entities.Product">
+              <point x="-45.0" y="-13.5" />
+              <point x="216.54439484126993" y="133.0" />
+              <point x="157.9285714285714" y="133.0" />
+              <point x="13.428571428571388" y="46.5" />
+            </edge>
+            <edge source="app.servlets.senior_cashier.CancelCheck" target="db.SeniorCashierInteract">
+              <point x="30.75" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="db.InteractBd" target="app.entities.Product">
+              <point x="-31.999999999999943" y="-24.5" />
+              <point x="643.1346726190477" y="123.0" />
+              <point x="171.35714285714283" y="123.0" />
+              <point x="26.857142857142833" y="46.5" />
+            </edge>
+            <edge source="app.servlets.merchandise.CreateProduct" target="app.entities.Product">
+              <point x="0.0" y="-13.5" />
+              <point x="156.54439484126993" y="425.0" />
+              <point x="144.5" y="425.0" />
+              <point x="0.0" y="46.5" />
+            </edge>
+            <edge source="app.servlets.senior_cashier.SelectCheck" target="app.servlets.senior_cashier.SelectCheckId">
+              <point x="0.0" y="-13.5" />
+              <point x="-34.25" y="24.5" />
+            </edge>
+            <edge source="app.servlets.merchandise.CreateProduct" target="db.merchandise.MerchandiseInteract">
+              <point x="45.66666666666666" y="-13.5" />
+              <point x="202.2110615079366" y="425.0" />
+              <point x="216.54439484126993" y="425.0" />
+              <point x="-45.0" y="13.5" />
+            </edge>
+            <edge source="db.InteractBd" target="db.Interact">
+              <point x="32.00000000000006" y="-24.5" />
+              <point x="707.1346726190477" y="227.0" />
+              <point x="717.6346726190477" y="227.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="db.SeniorCashierInteract" target="db.InteractBd">
+              <point x="0.0" y="-13.5" />
+              <point x="669.79439484127" y="326.0" />
+              <point x="675.1346726190477" y="326.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="app.servlets.cashier.AddProduct" target="db.CashierInteract">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="24.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="60.0" y="214.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_contents.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents</OriginalElement>
+          <nodes>
+            <node x="44.0" y="144.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.products</node>
+            <node x="316.25" y="0.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.cashiers</node>
+            <node x="0.0" y="310.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.storage_for_products</node>
+            <node x="491.6666666666667" y="155.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.operations</node>
+            <node x="264.0" y="155.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks</node>
+            <node x="347.0" y="288.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks</node>
+            <node x="191.0" y="299.5">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.cashiers">
+              <point x="0.0" y="-58.0" />
+              <point x="479.5" y="263.0" />
+              <point x="481.1666666666667" y="263.0" />
+              <point x="481.1666666666667" y="119.0" />
+              <point x="443.0" y="119.0" />
+              <point x="42.25" y="47.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks">
+              <point x="34.0" y="-46.5" />
+              <point x="-29.0" y="36.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.cashiers">
+              <point x="0.0" y="-36.0" />
+              <point x="322.0" y="119.0" />
+              <point x="358.5" y="119.0" />
+              <point x="-42.25" y="47.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks">
+              <point x="-88.33333333333331" y="-58.0" />
+              <point x="391.1666666666667" y="263.0" />
+              <point x="351.0" y="263.0" />
+              <point x="29.0" y="36.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.products">
+              <point x="-34.0" y="-46.5" />
+              <point x="225.0" y="263.0" />
+              <point x="168.50000000000006" y="263.0" />
+              <point x="41.50000000000006" y="47.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.storage_for_products" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.products">
+              <point x="0.0" y="-36.0" />
+              <point x="-41.5" y="47.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.operations">
+              <point x="88.33333333333331" y="-58.0" />
+              <point x="567.8333333333333" y="263.0" />
+              <point x="564.1666666666667" y="263.0" />
+              <point x="0.0" y="36.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="126.5" y="143.0" />
+          <SelectedNodes>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.products</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.cashiers</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.storage_for_products</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/CloseCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/Interact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/add.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/InteractDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents</OriginalElement>
+          <nodes>
+            <node x="402.0" y="144.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.products</node>
+            <node x="85.25" y="0.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.cashiers</node>
+            <node x="285.0" y="299.5">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents</node>
+            <node x="58.333333333333314" y="155.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.operations</node>
+            <node x="441.0" y="310.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.storage_for_products</node>
+            <node x="0.0" y="288.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks</node>
+            <node x="232.0" y="155.0">fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.cashiers">
+              <point x="-88.33333333333331" y="-58.0" />
+              <point x="44.166666666666686" y="263.0" />
+              <point x="47.833333333333314" y="263.0" />
+              <point x="47.833333333333314" y="119.0" />
+              <point x="127.5" y="119.0" />
+              <point x="-42.25" y="47.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks">
+              <point x="-34.0" y="-46.5" />
+              <point x="29.0" y="36.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.cashiers">
+              <point x="0.0" y="-36.0" />
+              <point x="290.0" y="119.0" />
+              <point x="212.0" y="119.0" />
+              <point x="42.25" y="47.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks">
+              <point x="88.33333333333337" y="-58.0" />
+              <point x="220.83333333333337" y="263.0" />
+              <point x="261.0" y="263.0" />
+              <point x="-29.0" y="36.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.products">
+              <point x="34.0" y="-46.5" />
+              <point x="387.0" y="263.0" />
+              <point x="443.5" y="263.0" />
+              <point x="-41.5" y="47.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.storage_for_products" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.products">
+              <point x="0.0" y="-36.0" />
+              <point x="41.5" y="47.0" />
+            </edge>
+            <edge source="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks" target="fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.operations">
+              <point x="0.0" y="-58.0" />
+              <point x="132.5" y="263.0" />
+              <point x="130.83333333333331" y="263.0" />
+              <point x="0.0" y="36.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="126.0" y="137.5" />
+          <SelectedNodes>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.checks</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.products</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.check_contents</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.cashiers</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.storage_for_products</node>
+            <node>fee7ddfb-2413-40d6-acdb-b48d06e4681e.TABLE:cash_machine.documentation_of_work_with_checks</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>app</OriginalElement>
+          <nodes>
+            <node x="590.0" y="318.0">app.servlets.senior_cashier.CancelCheck</node>
+            <node x="427.75" y="241.0">app.servlets.senior_cashier.SelectCheckId</node>
+            <node x="625.3298611111111" y="164.0">db.InteractBd</node>
+            <node x="1005.0858134920634" y="318.0">app.servlets.cashier.OpenCheck</node>
+            <node x="124.3358134920635" y="0.0">app.entities.Product</node>
+            <node x="584.75" y="241.0">db.SeniorCashierInteract</node>
+            <node x="400.5" y="318.0">app.servlets.senior_cashier.SelectCheck</node>
+            <node x="0.0" y="390.0">app.servlets.senior_cashier.SelectSeniorCashier</node>
+            <node x="733.0858134920635" y="318.0">app.servlets.cashier.CloseCheck</node>
+            <node x="225.0" y="390.0">app.models.GroceryCheck</node>
+            <node x="869.0858134920635" y="318.0">app.servlets.cashier.AddProduct</node>
+            <node x="184.0" y="241.0">db.merchandise.MerchandiseInteract</node>
+            <node x="63.36780753968259" y="318.0">app.servlets.merchandise.CreateProduct</node>
+            <node x="257.5" y="318.0">app.servlets.merchandise.SetQuantity</node>
+            <node x="851.5858134920635" y="241.0">db.CashierInteract</node>
+            <node x="35.5" y="87.0">app.models.ProductList</node>
+            <node x="603.8298611111112" y="87.0">db.Interact</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="app.models.ProductList" target="app.entities.Product">
+              <point x="30.75" y="-13.5" />
+              <point x="127.75" y="67.0" />
+              <point x="157.90724206349205" y="67.0" />
+              <point x="-13.428571428571445" y="13.5" />
+            </edge>
+            <edge source="app.servlets.senior_cashier.CancelCheck" target="app.servlets.senior_cashier.SelectCheckId">
+              <point x="-30.75" y="-13.5" />
+              <point x="620.75" y="293.0" />
+              <point x="530.5" y="293.0" />
+              <point x="34.25" y="13.5" />
+            </edge>
+            <edge source="db.Interact" target="app.entities.Product">
+              <point x="0.0" y="-13.5" />
+              <point x="654.3298611111112" y="57.0" />
+              <point x="198.19295634920633" y="57.0" />
+              <point x="26.857142857142833" y="13.5" />
+            </edge>
+            <edge source="app.servlets.cashier.OpenCheck" target="db.CashierInteract">
+              <point x="0.0" y="-13.5" />
+              <point x="1059.0858134920634" y="293.0" />
+              <point x="977.4191468253969" y="293.0" />
+              <point x="50.33333333333337" y="13.5" />
+            </edge>
+            <edge source="app.servlets.cashier.CloseCheck" target="db.CashierInteract">
+              <point x="0.0" y="-13.5" />
+              <point x="791.0858134920635" y="293.0" />
+              <point x="876.7524801587301" y="293.0" />
+              <point x="-50.33333333333337" y="13.5" />
+            </edge>
+            <edge source="db.CashierInteract" target="db.InteractBd">
+              <point x="0.0" y="-13.5" />
+              <point x="927.0858134920635" y="216.0" />
+              <point x="721.9965277777778" y="216.0" />
+              <point x="38.66666666666663" y="13.5" />
+            </edge>
+            <edge source="db.merchandise.MerchandiseInteract" target="db.InteractBd">
+              <point x="45.0" y="-13.5" />
+              <point x="319.0" y="216.0" />
+              <point x="644.6631944444446" y="216.0" />
+              <point x="-38.66666666666663" y="13.5" />
+            </edge>
+            <edge source="app.servlets.merchandise.SetQuantity" target="db.merchandise.MerchandiseInteract">
+              <point x="0.0" y="-13.5" />
+              <point x="45.0" y="13.5" />
+            </edge>
+            <edge source="db.merchandise.MerchandiseInteract" target="app.entities.Product">
+              <point x="-45.0" y="-13.5" />
+              <point x="229.0" y="67.0" />
+              <point x="184.7643849206349" y="67.0" />
+              <point x="13.428571428571416" y="13.5" />
+            </edge>
+            <edge source="app.servlets.senior_cashier.CancelCheck" target="db.SeniorCashierInteract">
+              <point x="30.75" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="db.InteractBd" target="app.entities.Product">
+              <point x="29.0" y="-13.5" />
+              <point x="712.3298611111111" y="139.0" />
+              <point x="715.3298611111111" y="139.0" />
+              <point x="715.3298611111111" y="47.0" />
+              <point x="211.62152777777777" y="47.0" />
+              <point x="40.28571428571428" y="13.5" />
+            </edge>
+            <edge source="app.servlets.merchandise.CreateProduct" target="app.entities.Product">
+              <point x="-45.66666666666663" y="-13.5" />
+              <point x="86.20114087301596" y="293.0" />
+              <point x="25.0" y="293.0" />
+              <point x="25.0" y="47.0" />
+              <point x="131.05009920634922" y="47.0" />
+              <point x="-40.28571428571428" y="13.5" />
+            </edge>
+            <edge source="app.servlets.senior_cashier.SelectCheck" target="app.servlets.senior_cashier.SelectCheckId">
+              <point x="0.0" y="-13.5" />
+              <point x="-34.25" y="13.5" />
+            </edge>
+            <edge source="app.servlets.merchandise.CreateProduct" target="db.merchandise.MerchandiseInteract">
+              <point x="45.66666666666666" y="-13.5" />
+              <point x="177.53447420634924" y="293.0" />
+              <point x="229.0" y="293.0" />
+              <point x="-45.0" y="13.5" />
+            </edge>
+            <edge source="db.InteractBd" target="db.Interact">
+              <point x="-29.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="db.SeniorCashierInteract" target="db.InteractBd">
+              <point x="0.0" y="-13.5" />
+              <point x="682.25" y="216.0" />
+              <point x="683.3298611111111" y="216.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="app.servlets.cashier.AddProduct" target="db.CashierInteract">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="340.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/merchandise/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="88" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/cashier/open_check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/cashier/close_check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/merchandise/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/ProductCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CanselProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="108" selection-start-line="17" selection-start-column="108" selection-end-line="17" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check_for_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashForProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="12" column="127" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="127" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckForProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="117" column="14" lean-forward="true" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/cashier/add_products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" lean-forward="true" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="21" column="96" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/CashierInteract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>WebApp:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|WebApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: mysql:mysql-connector-java:8.0.16</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

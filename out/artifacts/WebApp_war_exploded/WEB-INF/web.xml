@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!-- CreateProduct servlet -->
+    <servlet>
+        <servlet-name>createProduct</servlet-name>
+        <servlet-class>app.servlets.merchandise.CreateProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>createProduct</servlet-name>
+        <url-pattern>/create</url-pattern>
+    </servlet-mapping>
+    <!-- SetQuantity servlet -->
+    <servlet>
+        <servlet-name>setQuantity</servlet-name>
+        <servlet-class>app.servlets.merchandise.SetQuantity</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>setQuantity</servlet-name>
+        <url-pattern>/set_quantity</url-pattern>
+    </servlet-mapping>
+    <!-- OpenCheck servlet -->
+    <servlet>
+        <servlet-name>openCheck</servlet-name>
+        <servlet-class>app.servlets.cashier.OpenCheck</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>openCheck</servlet-name>
+        <url-pattern>/open_check</url-pattern>
+    </servlet-mapping>
+
+    <!-- AddProducts servlet -->
+    <servlet>
+        <servlet-name>addProduct</servlet-name>
+        <servlet-class>app.servlets.cashier.AddProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addProduct</servlet-name>
+        <url-pattern>/add_products</url-pattern>
+    </servlet-mapping>
+
+    <!-- CloseCheck servlet -->
+    <servlet>
+        <servlet-name>closeCheck</servlet-name>
+        <servlet-class>app.servlets.cashier.CloseCheck</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>closeCheck</servlet-name>
+        <url-pattern>/close_check</url-pattern>
+    </servlet-mapping>
+
+    <!-- CancelCheck servlet -->
+    <servlet>
+        <servlet-name>cancelCheck</servlet-name>
+        <servlet-class>app.servlets.senior_cashier.CancelCheck</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cancelCheck</servlet-name>
+        <url-pattern>/cancel_check</url-pattern>
+    </servlet-mapping>
+
+    <!-- SelectCheck servlet -->
+    <servlet>
+        <servlet-name>selectCheck</servlet-name>
+        <servlet-class>app.servlets.senior_cashier.SelectCheck</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>selectCheck</servlet-name>
+        <url-pattern>/select_check</url-pattern>
+    </servlet-mapping>
+
+    <!-- SelectSeniorCashier servlet -->
+    <servlet>
+        <servlet-name>selectSeniorCashier</servlet-name>
+        <servlet-class>app.servlets.senior_cashier.SelectSeniorCashier</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>selectSeniorCashier</servlet-name>
+        <url-pattern>/select_senior_cashier</url-pattern>
+    </servlet-mapping>
+
+    <!-- SelectCheckForProduct servlet -->
+    <servlet>
+        <servlet-name>selectCheckForProduct</servlet-name>
+        <servlet-class>app.servlets.senior_cashier.SelectCheckForProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>selectCheckForProduct</servlet-name>
+        <url-pattern>/select_check_for_product</url-pattern>
+    </servlet-mapping>
+
+    <!-- SelectSeniorCashierForProduct servlet -->
+    <servlet>
+        <servlet-name>selectSeniorCashierForProduct</servlet-name>
+        <servlet-class>app.servlets.senior_cashier.SelectSeniorCashForProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>selectSeniorCashierForProduct</servlet-name>
+        <url-pattern>/select_senior_cashier_for_product</url-pattern>
+    </servlet-mapping>
+
+    <!-- SelectSeniorCashierForProduct servlet -->
+    <servlet>
+        <servlet-name>selectProduct</servlet-name>
+        <servlet-class>app.servlets.senior_cashier.SelectProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>selectProduct</servlet-name>
+        <url-pattern>/select_product</url-pattern>
+    </servlet-mapping>
+
+</web-app>
