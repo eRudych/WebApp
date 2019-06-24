@@ -4,12 +4,11 @@
 <html>
 <head>
     <title>Cancel Product</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
 <c:import url="/views/import/header.jsp"/>
-<h2>Product <c:out value="${product}"></c:out> removed from check <c:out value="${check}"></c:out> </h2>
+<h2>Product <c:out value="${product}"></c:out> removed from check <c:out value="${check}"></c:out></h2>
 <c:import url="/views/import/footer.jsp"/>
 </body>
 </html>

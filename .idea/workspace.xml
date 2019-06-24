@@ -7,52 +7,134 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b321281b-dd24-412c-94c8-24bf668d9f7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/views/senior_cashier/setDataSource.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/ProductCreated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fee7ddfb-2413-40d6-acdb-b48d06e4681e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fee7ddfb-2413-40d6-acdb-b48d06e4681e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/models/Model.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/models/ProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/models/ProductList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/merchandise/SetQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/merchandise/SetQuantity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/merchandise/set_quantity.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/merchandise/set_quantity.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/models/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/models/ProductList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/SetQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/SetQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/Interact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/Interact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/merchandise/MerchandiseInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/merchandise/MerchandiseInteract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/models/ProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/models/ProductList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/merchandise/SetQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/merchandise/SetQuantity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/import/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/import/header.jsp" afterDir="false" />
-    </list>
-    <list id="fb33b625-3608-440c-b1b4-4382695ee76b" name="init commit" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/AddServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/ListServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/cashier/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/cashier/AddProduct.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/cashier/CloseCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/cashier/CloseCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/cashier/OpenCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/cashier/OpenCheck.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/merchandise/CreateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/merchandise/CreateProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/CanselProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/merchandise/SetQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/merchandise/SetQuantity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/CancelCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/CancelCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/ProductCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectCheckForProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectCheckForProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectCheckId.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/CashierInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/CashierInteract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/Interact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/Interact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/InteractBd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/SeniorCashierInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/SeniorCashierInteract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/merchandise/MerchandiseInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/merchandise/MerchandiseInteract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectSeniorCashForProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectSeniorCashForProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectSeniorCashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/SelectSeniorCashier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/cashier/add_products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/cashier/add_products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/cashier/close_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/cashier/close_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/cashier/open_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/cashier/open_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/import/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/import/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/import/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/import/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/merchandise/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/merchandise/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/merchandise/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/merchandise/set_quantity.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/merchandise/set_quantity.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/cancel_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/cancel_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/cancel_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/cancel_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/report.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/report.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_check_for_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_check_for_product.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_senior_cashier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_senior_cashier.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_senior_cashier_for_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/senior_cashier/select_senior_cashier_for_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/views/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/models/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/models/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/models/ProductList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/cashier/AddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/cashier/AddProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/cashier/CloseCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/cashier/CloseCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/cashier/OpenCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/cashier/OpenCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/CreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/CreateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/SetQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/SetQuantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CanselProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/ProductCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/helpers/ProductCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckForProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckForProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/helpers/SelectCheckId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashForProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashForProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/CashierInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/CashierInteract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/db/Interact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/Interact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/db/InteractDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/InteractDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/db/SeniorCashierInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/SeniorCashierInteract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/merchandise/MerchandiseInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/MerchandiseInteract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/models/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/models/ProductList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/models/ProductList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/AddServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/ListServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/cashier/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/cashier/AddProduct.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/cashier/CloseCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/cashier/CloseCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/cashier/OpenCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/cashier/OpenCheck.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/merchandise/CreateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/merchandise/CreateProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/CanselProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/merchandise/SetQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/merchandise/SetQuantity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/CancelCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/CancelCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/ProductCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectCheckForProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectCheckForProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectCheckId.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectSeniorCashForProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectSeniorCashForProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectSeniorCashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/SelectSeniorCashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/cashier/add_products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/cashier/add_products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/cashier/close_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/cashier/close_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/cashier/open_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/cashier/open_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/import/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/import/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/import/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/import/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/merchandise/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/merchandise/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/merchandise/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/report.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/report.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/select_check_for_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/select_check_for_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/setDataSource.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/merchandise/product_created.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/test.jsp" beforeDir="false" />
+    </list>
+    <list id="fb33b625-3608-440c-b1b4-4382695ee76b" name="init commit" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/app/servlets/senior_cashier/CanselProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/CashierInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/CashierInteract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/Interact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/Interact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/SeniorCashierInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/SeniorCashierInteract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebApp_war_exploded/WEB-INF/classes/db/merchandise/MerchandiseInteract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/InteractDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/InteractDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/servlets/senior_cashier/CanselProduct.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/db/CashierInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/CashierInteract.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/db/Interact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/Interact.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/db/InteractBd.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/db/SeniorCashierInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/SeniorCashierInteract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/merchandise/MerchandiseInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/merchandise/MerchandiseInteract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/merchandise/MerchandiseInteract.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -119,7 +201,7 @@
         <item name="cash_maсhine_localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cash_machine: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="documentation_of_work_with_checks: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="documentation_of_work: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -150,68 +232,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/import/header.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/report.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="17" column="124" selection-start-line="17" selection-start-column="124" selection-end-line="17" selection-end-column="124" />
+            <state relative-caret-position="204">
+              <caret line="27" column="110" selection-start-line="27" selection-start-column="110" selection-end-line="27" selection-end-column="110" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/report.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="255">
+              <caret line="36" column="121" selection-start-line="36" selection-start-column="121" selection-end-line="36" selection-end-column="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="138" column="57" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/Report.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check_for_product.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="9" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="-126">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-228">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/setDataSource.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="44">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -222,8 +331,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hr</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -231,29 +347,112 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web/views/import/header.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/db/Interact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/models/ProductList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/db/InteractDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/merchandise/MerchandiseInteract.java" />
-        <option value="$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/SetQuantity.java" />
-        <option value="$PROJECT_DIR$/web/views/import/header.jsp" />
         <option value="$PROJECT_DIR$/web/views/senior_cashier/setDataSource.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CanselProduct.java" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_check_for_product.jsp" />
+        <option value="$PROJECT_DIR$/web/views/import/header.jsp" />
+        <option value="$PROJECT_DIR$/web/views/cashier/add_products.jsp" />
+        <option value="$PROJECT_DIR$/web/views/cashier/close_check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/cashier/open_check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/import/footer.jsp" />
+        <option value="$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp" />
+        <option value="$PROJECT_DIR$/web/views/check.jsp" />
+        <option value="$PROJECT_DIR$/web/views/merchandise/product_created.jsp" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/app/servlets/senior_cashier/CancelProductTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/ProductCreated.java" />
+        <option value="$PROJECT_DIR$/web/views/merchandise/create.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/merchandise/CreateProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/ProductCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/helpers/SelectCheckId.java" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/helper/SelectCashierId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/helper/CheckId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/OpenCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/CloseCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/cashier/AddProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/helpers/SeniorSelectCashierId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashForProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/Interact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/MerchandiseInteract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/InteractDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/CashierInteract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db/SeniorCashierInteract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckForProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/models/ProductList.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/Report.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/views/senior_cashier/report.jsp" />
       </list>
     </option>
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/db/Interact.java">
+    <file path="$PROJECT_DIR$/src/main/java/db/InteractDB.java">
       <ranges>
-        <range start1="3" end1="3" start2="3" end2="5" changelist="b321281b-dd24-412c-94c8-24bf668d9f7f" />
-        <range start1="5" end1="10" start2="7" end2="9" changelist="b321281b-dd24-412c-94c8-24bf668d9f7f" />
-        <range start1="11" end1="13" start2="10" end2="15" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
-        <range start1="16" end1="17" start2="18" end2="21" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="3" end1="3" start2="3" end2="4" changelist="b321281b-dd24-412c-94c8-24bf668d9f7f" />
+        <range start1="4" end1="4" start2="5" end2="6" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="6" end1="7" start2="8" end2="9" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="8" end1="9" start2="10" end2="11" changelist="b321281b-dd24-412c-94c8-24bf668d9f7f" />
+        <range start1="11" end1="17" start2="13" end2="21" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="21" end1="23" start2="25" end2="29" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="29" end1="35" start2="35" end2="47" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="39" end1="44" start2="51" end2="52" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="45" end1="48" start2="53" end2="55" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="49" end1="50" start2="56" end2="56" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="51" end1="51" start2="57" end2="58" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="52" end1="52" start2="59" end2="60" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="55" end1="62" start2="63" end2="67" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="64" end1="68" start2="69" end2="69" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="70" end1="79" start2="71" end2="74" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="84" end1="93" start2="79" end2="83" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="97" end1="100" start2="87" end2="89" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="101" end1="105" start2="90" end2="90" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="109" end1="111" start2="94" end2="96" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="112" end1="113" start2="97" end2="98" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="114" end1="115" start2="99" end2="100" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="116" end1="117" start2="101" end2="102" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="119" end1="119" start2="104" end2="140" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="123" end1="123" start2="144" end2="145" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="127" end1="128" start2="149" end2="150" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="131" end1="133" start2="153" end2="155" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="136" end1="137" start2="158" end2="159" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="138" end1="139" start2="160" end2="161" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="142" end1="143" start2="164" end2="165" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="145" end1="160" start2="167" end2="168" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="164" end1="164" start2="172" end2="173" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="168" end1="168" start2="177" end2="178" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="172" end1="175" start2="182" end2="184" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="176" end1="177" start2="185" end2="186" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="182" end1="184" start2="191" end2="194" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="187" end1="188" start2="197" end2="198" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="192" end1="194" start2="202" end2="224" changelist="b321281b-dd24-412c-94c8-24bf668d9f7f" />
+        <range start1="195" end1="195" start2="225" end2="226" changelist="b321281b-dd24-412c-94c8-24bf668d9f7f" />
+        <range start1="197" end1="201" start2="228" end2="232" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="202" end1="203" start2="233" end2="234" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="204" end1="206" start2="235" end2="237" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="208" end1="208" start2="239" end2="240" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="210" end1="210" start2="242" end2="263" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
+        <range start1="215" end1="216" start2="268" end2="269" changelist="fb33b625-3608-440c-b1b4-4382695ee76b" />
       </ranges>
     </file>
   </component>
@@ -282,11 +481,6 @@
             <path>
               <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
@@ -369,6 +563,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="cashier" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
               <item name="merchandise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -395,8 +600,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="merchandise" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
@@ -454,10 +671,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="app.servlets.senior_cashier" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="db" />
+      <recent name="app.servlets.senior_cashier.helpers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -691,16 +922,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561292258025</updated>
-      <workItem from="1561292297139" duration="10232000" />
+      <workItem from="1561292297139" duration="36559000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1561367704506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561367704506</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1561367836482</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561367836482</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init commit">
+      <created>1561367867534</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561367867534</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12414000" />
+    <option name="totallyTimeSpent" value="38741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -709,7 +961,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.1590604" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.22147651" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Console" order="1" sideWeight="0.4986577" weight="0.19971672" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49932885" weight="0.3286119" />
@@ -718,7 +970,7 @@
       <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.4986577" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="7" sideWeight="0.49925372" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49597314" weight="0.13314448" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49597314" weight="0.69688386" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49261746" visible="true" weight="0.33994335" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.39943343" />
@@ -733,46 +985,10 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.2536913" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.2536913" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.1590604" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Console" order="1" sideWeight="0.4986577" weight="0.19971672" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5073826" side_tool="true" weight="0.33994335" />
-      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.4986577" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" order="7" sideWeight="0.49925372" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49597314" weight="0.13314448" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49261746" visible="true" weight="0.33994335" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.3286119" />
-      <window_info anchor="bottom" id="Find" order="15" sideWeight="0.49731544" weight="0.4490085" />
-      <window_info anchor="bottom" id="Duplicates" order="16" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.2536913" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -817,217 +1033,391 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/CashierInteract.java">
+    <entry file="file://$PROJECT_DIR$/web/views/check.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/CloseCheck.java">
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/app/servlets/senior_cashier/CancelProductTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/merchandise/ProductCreated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/web/views/merchandise/product_created.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/views/merchandise/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/import/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/import/footer.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CanselProduct.java">
+    <entry file="file://$PROJECT_DIR$/web/views/cashier/open_check.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/cashier/close_check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/cashier/add_products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/merchandise/CreateProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/OpenCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="153">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/CloseCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/cashier/open_check.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/CashEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/AddProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/app/servlets/cashier/AddProduct.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/SeniorCashierInteract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/merchandise/list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/MerchandiseInteract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408" />
+        <state relative-caret-position="102">
+          <caret line="11" column="53" selection-end-line="22" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/merchandise/create.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/InteractDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
+        <state relative-caret-position="78">
+          <caret line="202" column="96" selection-end-line="272" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/Interact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="29" column="89" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/CashierInteract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="32" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectSeniorCashForProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="80" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheckForProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="78" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/CancelCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/helpers/SeniorSelectCashierId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/helpers/SelectCheckId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="5" selection-start-line="12" selection-start-column="28" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/helpers/ProductCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/merchandise/SetQuantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/helper/SelectCashierId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/cashier/helper/CheckId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/models/ProductList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/SeniorCashier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/models/ProductList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/merchandise/MerchandiseInteract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="81" lean-forward="true" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/InteractDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/cashier/add_products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/merchandise/set_quantity.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="63" lean-forward="true" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/Interact.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/Merchandise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/merchandise/SetQuantity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/FactoryCashier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/import/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entities/employees/Cashier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="17" column="124" selection-start-line="17" selection-start-column="124" selection-end-line="17" selection-end-column="124" />
+        <state relative-caret-position="85">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_check.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/cancel_product.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/report.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp">
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check_for_product.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="-228">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_senior_cashier_for_product.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/setDataSource.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="44">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check_for_product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/select_check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="9" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="121" selection-start-line="36" selection-start-column="121" selection-end-line="36" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/SelectCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/servlets/senior_cashier/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="138" column="57" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/senior_cashier/report.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="110" selection-start-line="27" selection-start-column="110" selection-end-line="27" selection-end-column="110" />
         </state>
       </provider>
     </entry>

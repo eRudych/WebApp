@@ -122,4 +122,26 @@
         <url-pattern>/select_product</url-pattern>
     </servlet-mapping>
 
+    <!-- ProductCreated servlet -->
+    <servlet>
+        <servlet-name>cancelProduct</servlet-name>
+        <servlet-class>app.servlets.senior_cashier.CancelProduct</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cancelProduct</servlet-name>
+        <url-pattern>/cancel_product</url-pattern>
+    </servlet-mapping>
+
+    <!-- Report servlet -->
+    <servlet>
+        <servlet-name>report</servlet-name>
+        <servlet-class>app.servlets.senior_cashier.Report</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>report</servlet-name>
+        <url-pattern>/report</url-pattern>
+    </servlet-mapping>
+
 </web-app>

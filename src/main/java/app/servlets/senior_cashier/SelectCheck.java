@@ -1,6 +1,6 @@
 package app.servlets.senior_cashier;
 
-import db.CashierInteract;
+import app.servlets.senior_cashier.helpers.SelectCheckId;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -21,20 +21,15 @@ public class SelectCheck extends HttpServlet {
         try {
             SelectCheckId.getInstance().setCheckId(Integer.parseInt(req.getParameter("check")));
             System.out.println(Integer.parseInt(req.getParameter("check")));
-            //documentation
-            doGetAfterPost(req,resp);
-        }
-        catch(Exception ex) {
-            // logic.webPageException(this.getClass().toString(),ex);
+            doGetAfterPost(req, resp);
+        } catch (Exception ex) {
             ex.printStackTrace();
             getServletContext().getRequestDispatcher("/views/senior_cashier/select_check.jsp").forward(req, resp);
         }
     }
+
     protected void doGetAfterPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //RequestDispatcher requestDispatcher = req.getRequestDispatcher("/views/cashier/add_products.jsp");
-        //requestDispatcher.forward(req, resp);
         resp.sendRedirect("/cancel_check");
-        //resp.sendRedirect("/cancel_check");
     }
 
 }

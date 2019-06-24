@@ -1,17 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Elisabeth
-  Date: 18.06.2019
-  Time: 21:34
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Storage</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Select check</title>
 </head>
 
 <body>
@@ -19,11 +11,9 @@
 <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
                    url="jdbc:mysql://localhost/cash_machine"
                    user="root" password="root"/>
-
-//определение опирации через idOperation
 <sql:query dataSource="${snapshot}" var="resultStorage">
-    SELECT  check_.IdCheck, check_.Amount, check_.ProductCode as ProductCode, product.ProductName as ProductName
-    FROM  check_contents check_
+    SELECT check_.IdCheck, check_.Amount, check_.ProductCode as ProductCode, product.ProductName as ProductName
+    FROM check_contents check_
     INNER JOIN products product ON check_.ProductCode =product.Code
     ORDER BY IdCheck
 </sql:query>
@@ -52,26 +42,22 @@
         <th class="w3-quarter">ProductName</th>
         <th class="w3-quarter">Amount</th>
     </tr>
-
     <c:forEach var="row" items="${resultStorage.rows}">
         <tr>
             <td class="w3-quarter w3-green"><input type="number" name="id"
-                                                 class="w3-input w3-animate-input w3-border w3-round-large" readonly
-                                                 value="${row.IdCheck}"></td>
+                                                   class="w3-input w3-animate-input w3-border w3-round-large" readonly
+                                                   value="${row.IdCheck}"></td>
             <td class="w3-quarter"><input class="w3-input w3-animate-input w3-border w3-round-large" type="number"
-                                        readonly value="<c:out value = "${row.ProductCode}"/>"></td>
+                                          readonly value="<c:out value = "${row.ProductCode}"/>"></td>
             <td class="w3-quarter"><input class="w3-input w3-animate-input w3-border w3-round-large" type="text"
-                                        readonly value="<c:out value = "${row.ProductName}"/>"></td>
+                                          readonly value="<c:out value = "${row.ProductName}"/>"></td>
             <td class="w3-quarter"><input class="w3-input w3-animate-input w3-border w3-round-large" type="text"
-                                        readonly value="<c:out value = "${row.Amount}"/>"></td>
+                                          readonly value="<c:out value = "${row.Amount}"/>"></td>
         </tr>
     </c:forEach>
-
 </table>
-
 <c:import url="/views/import/footer.jsp"/>
 </body>
 </html>
 
-</body>
-</html>
+

@@ -3,8 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
 <html>
 <head>
-    <title>Check</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Cancel product</title>
 </head>
 
 <body>
@@ -15,6 +14,7 @@
 <sql:query dataSource="${snapshot}" var="resultCashiers">
     SELECT Id FROM cashiers WHERE SeniorPosition=1
 </sql:query>
+<jsp:useBean id="products" class="app.models.ProductList" scope="page"/>
 <div class="w3-container w3-padding">
     <div class="w3-card-4">
         <div class="w3-container w3-center w3-green">

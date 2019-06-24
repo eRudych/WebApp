@@ -1,5 +1,7 @@
 package app.servlets.cashier;
 
+import app.servlets.cashier.helper.CheckId;
+import app.servlets.cashier.helper.SelectCashierId;
 import db.CashierInteract;
 
 import javax.servlet.RequestDispatcher;
@@ -12,8 +14,7 @@ import java.io.IOException;
 public class CloseCheck  extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int id=new CashierInteract().getMaxIdForChecks();
-        req.setAttribute("id", id);
+        req.setAttribute("id", CheckId.getInstance().getCheckId());
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("/views/cashier/close_check.jsp");
         requestDispatcher.forward(req, resp);
     }

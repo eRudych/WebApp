@@ -1,5 +1,7 @@
 package app.servlets.cashier;
 
+import app.servlets.cashier.helper.CheckId;
+import app.servlets.cashier.helper.SelectCashierId;
 import db.CashierInteract;
 
 import javax.servlet.RequestDispatcher;
@@ -19,6 +21,8 @@ public class AddProduct extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
+            int idCashier = SelectCashierId.getInstance().getSelectCashierId();
+            int idCheck=CheckId.getInstance().getCheckId();
             Integer code=null;
             String name=null;
             try {
@@ -28,18 +32,16 @@ public class AddProduct extends HttpServlet {
                 name = req.getParameter("name");
             }
             Integer amount = Integer.parseInt(req.getParameter("amount"));
-            int id = new CashierInteract().getMaxIdForChecks();
-            System.out.println(id);
+            CheckId.getInstance().setCheckId(idCheck);
             if(code!=null){
-                new CashierInteract().addProduct(code,amount,id);
+                new CashierInteract().addProduct(code,amount,idCheck , idCashier);
             }
             if(name!=null){
-                new CashierInteract().addProduct(name,amount,id);
+                new CashierInteract().addProduct(name,amount,idCheck,idCashier);
             }
             doGet(req,resp);
         }
         catch(Exception ex) {
-            // logic.webPageException(this.getClass().toString(),ex);
             ex.printStackTrace();
             getServletContext().getRequestDispatcher("/views/cashier/add_products.jsp").forward(req, resp);
         }

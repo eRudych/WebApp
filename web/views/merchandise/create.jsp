@@ -4,7 +4,6 @@
 <html>
 <head>
     <title>Create product</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body class="w3-light-grey">
@@ -33,18 +32,6 @@
         </form>
     </div>
 </div>
-
-
-<div class="w3-container w3-blue-grey w3-opacity ">
-    <%
-        if (request.getAttribute("code") != null) {
-            out.println("<p>Product '" + request.getAttribute("code") + "' created!</p>");
-        } else {
-            out.println("<p>Fail! Try again!</p>");
-        }
-    %>
-</div>
-
 
 <c:import url="/views/import/footer.jsp"/>
 </body>

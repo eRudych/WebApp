@@ -1,7 +1,7 @@
 package app.servlets.merchandise;
 
 import app.entities.Product;
-import db.merchandise.MerchandiseInteract;
+import db.MerchandiseInteract;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,10 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-
-
+/**
+ * This servlet is required to create a product and entering data into the table
+ *
+ */
 public class CreateProduct extends HttpServlet {
-  // private BdLogic logic = new BdLogic();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("/views/merchandise/create.jsp");
@@ -25,20 +26,20 @@ public class CreateProduct extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             Integer code = Integer.parseInt(req.getParameter("code"));
-            System.out.println(code);
             String productName = req.getParameter("productName");
-            System.out.println(productName);
             Integer price = Integer.parseInt(req.getParameter("price"));
-            System.out.println(price);
             Product product= new Product(productName,code,price);
             new MerchandiseInteract().addProduct(product);
             req.setAttribute("code", code);
-            doGet(req, resp);
+            doGetAfterPost(req,resp);
         }
         catch(Exception ex) {
-           // logic.webPageException(this.getClass().toString(),ex);
             ex.printStackTrace();
             getServletContext().getRequestDispatcher("/views/merchandise/create.jsp").forward(req, resp);
         }
+    }
+    private void doGetAfterPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/views/merchandise/product_created.jsp");
+        requestDispatcher.forward(req, resp);
     }
 }

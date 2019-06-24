@@ -15,7 +15,7 @@
 <body>
     <c:import url="/views/import/header.jsp"/>
     <div class="w3-container w3-blue-grey w3-opacity w3-right-align">
-    <a lang="ru">Русский</a>
+<%--    <a lang="ru">Русский</a>--%>
     <a>English</a>
 </div>
 <br>
@@ -34,7 +34,7 @@
             <li class="w3-green w3-xlarge w3-padding-32">Senior Cashier</li>
             <li class="w3-padding-16"><button class="w3-button w3-green w3-padding-large" onclick="location.href='/select_senior_cashier'">Cancel check</button></li>
             <li class="w3-padding-16"><button class="w3-button w3-green w3-padding-large" onclick="location.href='/select_senior_cashier_for_product'">Cancel product</button></li>
-            <li class="w3-padding-16"><button class="w3-button w3-green w3-padding-large" onclick="location.href='/select_senior_cashier'">Submit reports X&Y</button></li>
+            <li class="w3-padding-16"><button class="w3-button w3-green w3-padding-large" onclick="location.href='/report'">Submit reports X&Y</button></li>
         </ul>
     </div>
 

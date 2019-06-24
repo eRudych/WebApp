@@ -1,12 +1,13 @@
 package db;
 
 import app.entities.Product;
+import app.models.ProductList;
 
 import java.sql.*;
 
 public  class InteractDB implements Interact {
     /**
-     *
+     * Implementation of the database interface
      */
     private static InteractDB ourInstance = new InteractDB();
   //  private static BdLogic logic;
@@ -190,9 +191,30 @@ public  class InteractDB implements Interact {
     }
 
     @Override
-    public void addingToDocumentation(int numberOperation) {
-
+    public boolean addingToDocumentation(int numberOperation, Integer idCashier, Integer idCheck) {
+        switch (numberOperation) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5: {
+                String sqlCommandAddDocumentation = "INSERT INTO documentation_of_work (OperationId, CashierId, CheckId) VALUES (" + numberOperation + "," + idCashier + "," + idCheck + ");";
+                try {
+                    cachedRowSet.setCommand(sqlCommandAddDocumentation);
+                    cachedRowSet.execute();
+                    return true;
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            break;
+            default: {
+            }
+            break;
+        }
+        return false;
     }
+
 
     @Override
     public void removeCheck(int idCheck) {
