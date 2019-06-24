@@ -1,272 +1,219 @@
 package db;
 
 import app.entities.Product;
-import app.models.ProductList;
 
-import javax.sql.rowset.CachedRowSet;
 import java.sql.*;
 
-public class InteractDB implements Interact {
+public  class InteractDB implements Interact {
     /**
-     * Implementation of the database interface
+     *
      */
     private static InteractDB ourInstance = new InteractDB();
-    private String userName;
-    private String pass;
-    private Connection connection;
-    private Statement statement;
-    private String connectionUrl = "jdbc:mysql://localhost:3306/cash_machine";
-    public static final String ROWSET_IMPL_CLASS = "com.sun.rowset.CachedRowSetImpl";
-    private CachedRowSet cachedRowSet;
-
+  //  private static BdLogic logic;
+    String userName;
+    String pass;
+    Connection connection;
+    Statement statement;
+    String connectionUrl = "jdbc:mysql://localhost:3306/cash_machine";
     public static InteractDB getInstance() {
         return ourInstance;
     }
 
-    /**
-     * Configuring database connections
-     */
-    private InteractDB() {
+    protected InteractDB() {
+      //  logic = new BdLogic();
         userName = "root";
         pass = "root";
         try {
             connection = DriverManager.getConnection(connectionUrl, userName, pass);
             statement = connection.createStatement();
             Class.forName("com.mysql.jdbc.Driver");
-            Class c = Class.forName(ROWSET_IMPL_CLASS);
-            try {
-                cachedRowSet = (CachedRowSet) c.newInstance();
-            } catch (InstantiationException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            }
-            cachedRowSet.setUrl(connectionUrl);
-            cachedRowSet.setUsername(userName);
-            cachedRowSet.setPassword(pass);
-        } catch (SQLException | ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-
-    boolean setSQLCommandCached(String sqlCommand) {
-        try {
-            cachedRowSet.setCommand(sqlCommand);
-            cachedRowSet.execute();
         } catch (SQLException e) {
+      //      logic.showException(e);
             e.printStackTrace();
-            return false;
         }
-        return true;
-    }
-
-    @Override
-    public boolean addProduct(Product product) {
-        String sqlCommandProduct = "INSERT INTO products VALUE (" + product.getCode() + ",'" + product.getName() + "'," + product.getPrice() + ");";
-        String sqlCommandStorage = "INSERT INTO storage_for_products (ProductCode) VALUES (" + product.getCode() + ");";
-        return (setSQLCommandCached(sqlCommandProduct) && setSQLCommandCached(sqlCommandStorage));
+        catch (ClassNotFoundException e) {
+     //       logic.showException(e);
+            e.printStackTrace();
+        }
     }
 
 
     @Override
-    public boolean setQuantity(int amount, int code) {
-        String sqlCommandStorage = "UPDATE storage_for_products SET Amount=" + amount + " WHERE ProductCode=" + code + ";";
-        return setSQLCommandCached(sqlCommandStorage);
+    public void addProduct(Product product) {
+        String sqlCommandProduct = "INSERT INTO products VALUE ("+product.getCode()+",'"+product.getName()+"',"+product.getPrice()+");";
+        String sqlCommandStorage= "INSERT INTO storage_for_products (ProductCode) VALUES ("+product.getCode()+");";
+        try {
+            statement.executeUpdate(sqlCommandProduct);
+            statement.executeUpdate(sqlCommandStorage);
+            System.out.println(product.getCode()+" "+product.getName());
+        } catch (SQLException e) {
+     //       logic.showException(e);
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void remove(Object o) {
+
+    }
+
+    @Override
+    public void update(Object o) {
+
+    }
+
+    @Override
+    public void select(Object o) {
+
+    }
+
+    @Override
+    public void setQuantity(int amount,int code) {
+        String sqlCommandStorage= "UPDATE storage_for_products SET Amount="+amount+" WHERE ProductCode="+code+";";
+        System.out.println(amount+" "+code);
+        try {
+            statement.executeUpdate(sqlCommandStorage);
+        } catch (SQLException e) {
+            //       logic.showException(e);
+            e.printStackTrace();
+        }
     }
 
 
     @Override
     public int createCheck(int idCashier) {
-        String sqlCommandAddCheck = "INSERT INTO checks (IdCashier) VALUES (" + idCashier + ");";
-        setSQLCommandCached(sqlCommandAddCheck);
-        int id = getMaxIdForChecks();
-        System.out.println("hrrr" + id);
+        int id=getMaxIdForChecks();
+        String sqlCommandSelectAll= "SELECT * FROM checks;";
+        try {
+            String sqlCommandAddCheck= "INSERT INTO checks (IdCashier) VALUES ("+idCashier+");";
+            statement.executeUpdate(sqlCommandAddCheck);
+        } catch (SQLException e) {
+            //       logic.showException(e);
+            e.printStackTrace();
+        }
         return id;
     }
 
     @Override
-    public boolean addProduct(ResultSet resultSet, int code, int amount, int id) {
-        int amountStorage = 0;
+    public void addProduct(int code, int amount,int id) {
+        Savepoint savepoint=null;
+        String sqlCommandAddCheck= "SELECT Amount FROM storage_for_products WHERE ProductCode="+code+";";
         try {
+            connection.setAutoCommit(false);
+            savepoint = connection.setSavepoint("Savepoint");
+            ResultSet resultSet = statement.executeQuery(sqlCommandAddCheck);
+            int amountStorage=0;
             while (resultSet.next()) {
                 amountStorage = resultSet.getInt("Amount");
             }
             System.out.println(amountStorage);
-            if (amount > amountStorage) {
-                amount = amountStorage;
+            if(amount>amountStorage){
+                amount=amountStorage;
             }
-            amountStorage -= amount;
+            amountStorage-=amount;
             System.out.println(amountStorage);
-            String sqlCommandModyAmount = "UPDATE storage_for_products SET Amount=" + amountStorage + " WHERE ProductCode=" + code + ";";
+            String sqlCommandModyAmount= "UPDATE storage_for_products SET Amount="+amountStorage+" WHERE ProductCode="+code+";";
             statement.executeUpdate(sqlCommandModyAmount);
-            String sqlCommandAddProduct = "INSERT INTO check_contents VALUE (" + id + "," + code + "," + amount + ");";
+            String sqlCommandAddProduct= "INSERT INTO check_contents VALUE ("+id+","+code+","+amount+");";
             statement.executeUpdate(sqlCommandAddProduct);
             connection.commit();
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-            return false;
-        }
-        return true;
-    }
-
-    @Override
-    public ProductList allProducts() {
-        String sqlCommandSelectProducts = "SELECT storage.Amount, storage.ProductCode, product.ProductName as ProductName\n" +
-                "    FROM storage_for_products storage\n" +
-                "    INNER JOIN products product ON storage.ProductCode =product.Code";
-        ProductList productList = null;
-        try {
-            cachedRowSet.setCommand(sqlCommandSelectProducts);
-            while (cachedRowSet.next()) {
-                productList.add(new Product(cachedRowSet.getString(3), cachedRowSet.getInt(2), cachedRowSet.getInt(1)));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return productList;
-    }
-
-    @Override
-    public boolean addProduct(int code, int amount, int id) {
-        Savepoint savepoint = null;
-        System.out.println("this" + id);
-        String sqlCommandSelectAmount = "SELECT Amount FROM storage_for_products WHERE ProductCode=" + code + ";";
-        try {
-            connection.setAutoCommit(false);
-            savepoint = connection.setSavepoint("Savepoint");
-            cachedRowSet.setCommand(sqlCommandSelectAmount);
-            ResultSet resultSet = statement.executeQuery(sqlCommandSelectAmount);
-            addProduct(resultSet, code, amount, id);
-
         } catch (SQLException e) {
             e.printStackTrace();
             try {
                 connection.rollback(savepoint);
-                return false;
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
         }
-        return true;
+
     }
 
     @Override
-    public boolean addProduct(String name, int amount, int id) {
-        Savepoint savepoint = null;
+    public void addProduct(String name, int amount, int id) {
+        Savepoint savepoint=null;
 
         try {
             connection.setAutoCommit(false);
-            String sqlCommandSearchProductCode = "SELECT Code FROM products WHERE ProductName='" + name + "'";
+            String sqlCommandSearchProductCode="SELECT Code FROM products WHERE ProductName='"+name+"'";
             ResultSet resultSet = statement.executeQuery(sqlCommandSearchProductCode);
-            int code = 0;
+            int code=0;
             while (resultSet.next()) {
                 code = resultSet.getInt("Code");
             }
-            String sqlCommandAddCheck = "SELECT Amount FROM storage_for_products WHERE ProductCode=" + code + ";";
+            String sqlCommandAddCheck= "SELECT Amount FROM storage_for_products WHERE ProductCode="+code+";";
             savepoint = connection.setSavepoint("Savepoint");
             resultSet = statement.executeQuery(sqlCommandAddCheck);
-            addProduct(resultSet, code, amount, id);
+            int amountStorage=0;
+            while (resultSet.next()) {
+                amountStorage = resultSet.getInt("Amount");
+            }
+            System.out.println(amountStorage);
+            if(amount>amountStorage){
+                amount=amountStorage;
+            }
+            amountStorage-=amount;
+            System.out.println(amountStorage);
+            String sqlCommandModyAmount= "UPDATE storage_for_products SET Amount="+amountStorage+" WHERE ProductCode="+code+";";
+            statement.executeUpdate(sqlCommandModyAmount);
+            String sqlCommandAddProduct= "INSERT INTO check_contents VALUE ("+id+","+code+","+amount+");";
+            statement.executeUpdate(sqlCommandAddProduct);
+            connection.commit();
         } catch (SQLException e) {
             e.printStackTrace();
             try {
                 connection.rollback(savepoint);
-                return false;
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
         }
-        return true;
     }
 
     @Override
     public int getMaxIdForChecks() {
-        int id = 0;
-        String sqlCommandSelectAllFromCheck = "SELECT * FROM checks ORDER BY Id;";
+        int id=0;
+        String sqlCommandSelectAll= "SELECT * FROM checks ORDER BY Id;";
+        ResultSet resultSet = null;
         try {
-            ResultSet resultSet = statement.executeQuery(sqlCommandSelectAllFromCheck);
+            resultSet = statement.executeQuery(sqlCommandSelectAll);
             while (resultSet.next()) {
                 id = resultSet.getInt("Id");
             }
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            return id;
         }
+        return id;
     }
 
     @Override
-    public void selectSeniorCashier(int id) {
+    public void selectSeniorCashier(int id){
 
     }
 
     @Override
-    public boolean addingToDocumentation(int numberOperation, Integer idCashier, Integer idCheck) {
-        switch (numberOperation) {
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5: {
-                String sqlCommandAddDocumentation = "INSERT INTO documentation_of_work (OperationId, CashierId, CheckId) VALUES (" + numberOperation + "," + idCashier + "," + idCheck + ");";
-                try {
-                    cachedRowSet.setCommand(sqlCommandAddDocumentation);
-                    cachedRowSet.execute();
-                    return true;
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            }
-            break;
-            default: {
-            }
-            break;
-        }
-        return false;
+    public void addingToDocumentation(int numberOperation) {
+
     }
 
-
     @Override
-    public boolean removeCheck(int idCheck) {
-        String sqlCommandRemoveFromChecks = "DELETE FROM checks WHERE Id=" + idCheck + "";
-        String sqlCommandRemoveFromCheckContents = "DELETE FROM check_contents WHERE IdCheck=" + idCheck + "";
-        Savepoint savepoint = null;
+    public void removeCheck(int idCheck) {
+        String sqlCommandRemoveFromChecks= "DELETE FROM checks WHERE Id="+idCheck+"";
+        String sqlCommandRemoveFromCheckContents= "DELETE FROM check_contents WHERE IdCheck="+idCheck+"";
+        Savepoint savepoint=null;
         try {
-            savepoint = connection.setSavepoint("Savepoint");
+            savepoint= connection.setSavepoint("Savepoint");
             connection.setAutoCommit(false);
-            setSQLCommandCached(sqlCommandRemoveFromCheckContents);
-            setSQLCommandCached(sqlCommandRemoveFromChecks);
-            connection.commit();
-        } catch (SQLException e) {
-            e.printStackTrace();
-            try {
-                connection.rollback(savepoint);
-                return false;
-            } catch (SQLException ex) {
-                ex.printStackTrace();
-            }
-        }
-        return true;
-    }
-
-    @Override
-    public boolean removeProduct(int idCheck, int idProduct) {
-        String sqlCommandRemoveFromCheckContents = "DELETE FROM check_contents WHERE IdCheck=" + idCheck + " && ProductCode=" + idProduct + "";
-        Savepoint savepoint = null;
-        try {
-            savepoint = connection.setSavepoint("Savepoint");
-            connection.setAutoCommit(false);
-            setSQLCommandCached(sqlCommandRemoveFromCheckContents);
+            statement.executeUpdate(sqlCommandRemoveFromCheckContents);
+            statement.executeUpdate(sqlCommandRemoveFromChecks);
             connection.commit();
         } catch (SQLException e) {
             try {
                 connection.rollback(savepoint);
-                return false;
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
             e.printStackTrace();
         }
-        return true;
+
     }
 
 }
