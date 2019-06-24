@@ -14,17 +14,15 @@ public class ProductList {
         return instance;
     }
 
-    private ProductList() {
+    public ProductList() {
         productList = new ArrayList<>();
     }
 
-    public void add(Product product) {
-        productList.add(product);
+    public boolean add(Product product) {
+        return productList.add(product);
     }
 
-    public List<String> list() {
-        return productList.stream()
-                .map(Product::toString)
-                .collect(Collectors.toList());
+    public List<Product> getList() {
+        return  productList;
     }
 }

@@ -9,16 +9,16 @@
 
 <body>
 <c:import url="/views/import/header.jsp"/>
-<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
-                                                              url="jdbc:mysql://localhost/cash_machine"
-                                                              user="root" password="root"/>
+<%--<sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"--%>
+<%--                                                              url="jdbc:mysql://localhost/cash_machine"--%>
+<%--                                                              user="root" password="root"/>--%>
 
 
-    <sql:query dataSource="${snapshot}" var="resultStorage">
-    SELECT storage.Amount, storage.ProductCode, product.ProductName as ProductName
-    FROM storage_for_products storage
-    INNER JOIN products product ON storage.ProductCode =product.Code
-    </sql:query>
+<%--    <sql:query dataSource="${snapshot}" var="resultStorage">--%>
+<%--    SELECT storage.Amount, storage.ProductCode, product.ProductName as ProductName--%>
+<%--    FROM storage_for_products storage--%>
+<%--    INNER JOIN products product ON storage.ProductCode =product.Code--%>
+<%--    </sql:query>--%>
     <div class="w3-container w3-green">
         <h2>Setting the quantity for products</h2>
     </div>
@@ -27,7 +27,7 @@
         <select class="w3-select w3-animate-select w3-border w3-round-large" name="code" required>
             <option value="" disabled selected>Choose your option</option>
             <c:forEach var="row" items="${resultStorage.rows}">
-                <option><c:out value="${row.ProductCode}"/></option>
+                <option><c:out value="${row.getInt(2)}"/></option>
             </c:forEach>
         </select>
         </label>

@@ -1,6 +1,7 @@
 package app.servlets.merchandise;
 
 import app.entities.Product;
+import app.models.ProductList;
 import db.merchandise.MerchandiseInteract;
 import log.BdLogic;
 
@@ -11,13 +12,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 public class SetQuantity extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("/views/merchandise/set_quantity.jsp");
+       // req.setAttribute("resultStorage",new MerchandiseInteract().allProducts());
         requestDispatcher.forward(req, resp);
+
     }
 
     @Override
