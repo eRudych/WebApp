@@ -17,10 +17,10 @@
     FROM check_contents check_
     INNER JOIN products product ON check_.ProductCode =product.Code
     WHERE IdCheck=?
-    <sql:param value = "${id}" />
+    <sql:param value="${id}"/>
 </sql:query>
 <div class="w3-container w3-green">
-    <h2>Check number <c:out value = "${id}" /></h2>
+    <h2>Check number <c:out value="${id}"/></h2>
 </div>
 <table border="1" class="w3-table-all w3-hoverable">
     <tr class="w3-green">
@@ -35,7 +35,9 @@
                                         readonly value="<c:out value = "${row.ProductCode}"/>"></td>
             <td class="w3-third"><input class="w3-input w3-animate-input w3-border w3-round-large" type="text"
                                         readonly value="<c:out value = "${row.ProductName}"/>"></td>
-            <td class="w3-third "><input type="number" name="amount" class="w3-input w3-animate-input w3-border w3-round-large" readonly value="<c:out value = "${row.Amount}"/>"></td>
+            <td class="w3-third "><input type="number" name="amount"
+                                         class="w3-input w3-animate-input w3-border w3-round-large" readonly
+                                         value="<c:out value = "${row.Amount}"/>"></td>
         </tr>
     </c:forEach>
 

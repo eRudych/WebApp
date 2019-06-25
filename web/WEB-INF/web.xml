@@ -6,7 +6,7 @@
     <!-- CreateProduct servlet -->
     <servlet>
         <servlet-name>createProduct</servlet-name>
-        <servlet-class>app.servlets.merchandise.CreateProduct</servlet-class>
+        <servlet-class>app.servlets.merchandise.functional.CreateProduct</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -16,7 +16,7 @@
     <!-- SetQuantity servlet -->
     <servlet>
         <servlet-name>setQuantity</servlet-name>
-        <servlet-class>app.servlets.merchandise.SetQuantity</servlet-class>
+        <servlet-class>app.servlets.merchandise.functional.SetQuantity</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -26,7 +26,7 @@
     <!-- OpenCheck servlet -->
     <servlet>
         <servlet-name>openCheck</servlet-name>
-        <servlet-class>app.servlets.cashier.OpenCheck</servlet-class>
+        <servlet-class>app.servlets.cashier.functional.OpenCheck</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -37,7 +37,7 @@
     <!-- AddProducts servlet -->
     <servlet>
         <servlet-name>addProduct</servlet-name>
-        <servlet-class>app.servlets.cashier.AddProduct</servlet-class>
+        <servlet-class>app.servlets.cashier.functional.AddProduct</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -48,7 +48,7 @@
     <!-- CloseCheck servlet -->
     <servlet>
         <servlet-name>closeCheck</servlet-name>
-        <servlet-class>app.servlets.cashier.CloseCheck</servlet-class>
+        <servlet-class>app.servlets.cashier.functional.CloseCheck</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -59,7 +59,7 @@
     <!-- CancelCheck servlet -->
     <servlet>
         <servlet-name>cancelCheck</servlet-name>
-        <servlet-class>app.servlets.senior_cashier.CancelCheck</servlet-class>
+        <servlet-class>app.servlets.senior_cashier.functional.cancel.check.CancelCheck</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -70,7 +70,7 @@
     <!-- SelectCheck servlet -->
     <servlet>
         <servlet-name>selectCheck</servlet-name>
-        <servlet-class>app.servlets.senior_cashier.SelectCheck</servlet-class>
+        <servlet-class>app.servlets.senior_cashier.functional.cancel.check.SelectCheck</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -81,7 +81,7 @@
     <!-- SelectSeniorCashier servlet -->
     <servlet>
         <servlet-name>selectSeniorCashier</servlet-name>
-        <servlet-class>app.servlets.senior_cashier.SelectSeniorCashier</servlet-class>
+        <servlet-class>app.servlets.senior_cashier.functional.cancel.check.SelectSeniorCashier</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -92,7 +92,7 @@
     <!-- SelectCheckForProduct servlet -->
     <servlet>
         <servlet-name>selectCheckForProduct</servlet-name>
-        <servlet-class>app.servlets.senior_cashier.SelectCheckForProduct</servlet-class>
+        <servlet-class>app.servlets.senior_cashier.functional.cancel.product.SelectCheckForProduct</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -103,7 +103,7 @@
     <!-- SelectSeniorCashierForProduct servlet -->
     <servlet>
         <servlet-name>selectSeniorCashierForProduct</servlet-name>
-        <servlet-class>app.servlets.senior_cashier.SelectSeniorCashForProduct</servlet-class>
+        <servlet-class>app.servlets.senior_cashier.functional.cancel.product.SelectSeniorCashForProduct</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -114,7 +114,7 @@
     <!-- SelectSeniorCashierForProduct servlet -->
     <servlet>
         <servlet-name>selectProduct</servlet-name>
-        <servlet-class>app.servlets.senior_cashier.SelectProduct</servlet-class>
+        <servlet-class>app.servlets.senior_cashier.functional.cancel.product.SelectProduct</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -125,7 +125,7 @@
     <!-- ProductCreated servlet -->
     <servlet>
         <servlet-name>cancelProduct</servlet-name>
-        <servlet-class>app.servlets.senior_cashier.CancelProduct</servlet-class>
+        <servlet-class>app.servlets.senior_cashier.functional.cancel.product.CancelProduct</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -136,7 +136,7 @@
     <!-- Report servlet -->
     <servlet>
         <servlet-name>report</servlet-name>
-        <servlet-class>app.servlets.senior_cashier.Report</servlet-class>
+        <servlet-class>app.servlets.senior_cashier.functional.reports.Report</servlet-class>
     </servlet>
 
     <servlet-mapping>

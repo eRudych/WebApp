@@ -1,6 +1,6 @@
 package app.entities.employees;
 
-public abstract class CashEmployee {
+public  abstract class CashEmployee {
     private String name;
     private boolean seniorPosition;
     CashEmployee(String name, boolean seniorPosition){

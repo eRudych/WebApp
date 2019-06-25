@@ -1,3 +1,2 @@
 2019-06-11 09:43:46 INFO  BdLogic:10 - Происходит подключение к бд
-2019-06-11 09:43:46 INFO  BdLogic:14 - Подключено
-2019-06-11 09:43:47 ERROR BdLogic:32 - java.sql.SQLSyntaxErrorException: Table 'products' already exists
+

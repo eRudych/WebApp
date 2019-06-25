@@ -21,11 +21,11 @@
                        style="width: 30%"><br/>
             </label>
             <label>Code:
-                <input required type="number" name="code" class="w3-input w3-animate-input w3-border w3-round-large"
+                <input required type="number" name="code" min="0" class="w3-input w3-animate-input w3-border w3-round-large"
                        style="width: 30%"><br/>
             </label>
             <label>Price:
-                <input required type="number" name="price" class="w3-input w3-animate-input w3-border w3-round-large"
+                <input required type="number" name="price" min="0" class="w3-input w3-animate-input w3-border w3-round-large"
                        style="width: 30%"><br/>
             </label>
             <button type="submit" class="w3-btn w3-green w3-round-large w3-margin-bottom">Create</button>

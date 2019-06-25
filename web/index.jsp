@@ -13,10 +13,10 @@
 
 </head>
 <body>
-    <c:import url="/views/import/header.jsp"/>
-    <div class="w3-container w3-blue-grey w3-opacity w3-right-align">
+<c:import url="/views/import/header.jsp"/>
+<div class="w3-container w3-blue-grey w3-opacity w3-right-align">
 <%--    <a lang="ru">Русский</a>--%>
-    <a>English</a>
+<%--    <a>English</a>--%>
 </div>
 <br>
 <div class="w3-row-padding">
@@ -24,7 +24,10 @@
     <div class="w3-third w3-margin-bottom">
         <ul class="w3-ul w3-border w3-center w3-hover-shadow">
             <li class="w3-blue-grey w3-xlarge w3-padding-32">Cashier</li>
-            <li class="w3-padding-16"><button class="w3-button w3-green w3-padding-large" onclick="location.href='/open_check'">Open check</button></li>
+            <li class="w3-padding-16">
+                <button class="w3-button w3-green w3-padding-large" onclick="location.href='/open_check'">Open check
+                </button>
+            </li>
         </ul>
     </div>
 
@@ -32,17 +35,36 @@
 
         <ul class="w3-ul w3-border w3-center w3-hover-shadow">
             <li class="w3-green w3-xlarge w3-padding-32">Senior Cashier</li>
-            <li class="w3-padding-16"><button class="w3-button w3-green w3-padding-large" onclick="location.href='/select_senior_cashier'">Cancel check</button></li>
-            <li class="w3-padding-16"><button class="w3-button w3-green w3-padding-large" onclick="location.href='/select_senior_cashier_for_product'">Cancel product</button></li>
-            <li class="w3-padding-16"><button class="w3-button w3-green w3-padding-large" onclick="location.href='/report'">Submit reports X&Y</button></li>
+            <li class="w3-padding-16">
+                <button class="w3-button w3-green w3-padding-large" onclick="location.href='/select_senior_cashier'">
+                    Cancel check
+                </button>
+            </li>
+            <li class="w3-padding-16">
+                <button class="w3-button w3-green w3-padding-large"
+                        onclick="location.href='/select_senior_cashier_for_product'">Cancel product
+                </button>
+            </li>
+            <li class="w3-padding-16">
+                <button class="w3-button w3-green w3-padding-large" onclick="location.href='/report'">Submit reports
+                    X&Y
+                </button>
+            </li>
         </ul>
     </div>
 
     <div class="w3-third w3-margin-bottom">
         <ul class="w3-ul w3-border w3-center w3-hover-shadow">
             <li class="w3-blue-grey w3-xlarge w3-padding-32">Merchandise</li>
-            <li class="w3-padding-16"> <button class="w3-button w3-green w3-padding-large" onclick="location.href='/create'">Create product</button></li>
-            <li class="w3-padding-16"> <button class="w3-button w3-green w3-padding-large" onclick="location.href='/set_quantity'">Set quantity</button></li>
+            <li class="w3-padding-16">
+                <button class="w3-button w3-green w3-padding-large" onclick="location.href='/create'">Create product
+                </button>
+            </li>
+            <li class="w3-padding-16">
+                <button class="w3-button w3-green w3-padding-large" onclick="location.href='/set_quantity'">Set
+                    quantity
+                </button>
+            </li>
         </ul>
     </div>
 

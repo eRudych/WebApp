@@ -27,12 +27,12 @@
         <select class="w3-select w3-animate-select w3-border w3-round-large" name="code" required>
             <option value="" disabled selected>Choose your option</option>
             <c:forEach var="row" items="${resultStorage.rows}">
-                <option><c:out value="${row.ProductName}"/></option>
+                <option><c:out value="${row.ProductCode}"/></option>
             </c:forEach>
         </select>
     </label>
     <label>Quantity:
-        <input class="w3-input w3-animate-input w3-border w3-round-large" type="number" name="newAmount" value="0"
+        <input class="w3-input w3-animate-input w3-border w3-round-large" type="number" min="0" name="newAmount" value="0"
                required>
         <br>
     </label>
