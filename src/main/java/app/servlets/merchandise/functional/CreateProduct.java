@@ -23,6 +23,9 @@ public class CreateProduct extends FunctionalMerchandise {
         requestDispatcher.forward(req, resp);
     }
 
+    /**
+     * code, productName, price - user selects
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {

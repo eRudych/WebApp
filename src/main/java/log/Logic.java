@@ -1,8 +1,10 @@
 package log;
-//import java.util.logging.Logger;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Logger for the project, records in the file - src/main/resources/log/app.log
+ */
 public class Logic implements ILogic {
     private static Logic ourInstance = new Logic();
 
@@ -12,7 +14,9 @@ public class Logic implements ILogic {
 
     private Logic() {
     }
-    private static final Logger log = Logger.getLogger((Logic.class));;
+
+    private static final Logger log = Logger.getLogger((Logic.class));
+    ;
 
     @Override
     public void logInfoMerchandise(String mess) {
@@ -20,8 +24,8 @@ public class Logic implements ILogic {
     }
 
     @Override
-    public void logErrorMerchandise(Exception ex,String mess) {
-        log.error(mess,ex);
+    public void logErrorMerchandise(Exception ex, String mess) {
+        log.error(mess, ex);
     }
 
     @Override
@@ -35,8 +39,8 @@ public class Logic implements ILogic {
     }
 
     @Override
-    public void logErrorCashier(Exception ex,String mess) {
-        log.error(mess,ex);
+    public void logErrorCashier(Exception ex, String mess) {
+        log.error(mess, ex);
     }
 
     @Override
@@ -50,8 +54,8 @@ public class Logic implements ILogic {
     }
 
     @Override
-    public void logErrorSeniorCashier(Exception ex,String mess) {
-        log.error(mess,ex);
+    public void logErrorSeniorCashier(Exception ex, String mess) {
+        log.error(mess, ex);
     }
 
     @Override

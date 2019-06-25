@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * This class "selects" product for remove
+ */
 public class SelectProduct extends FunctionalSeniorCashier {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -19,6 +22,10 @@ public class SelectProduct extends FunctionalSeniorCashier {
         requestDispatcher.forward(req, resp);
     }
 
+    /**
+     * productCode - (productCode) user selects
+     * storages the value of the productCode in the class {@link app.servlets.senior_cashier.FunctionalSeniorCashier.ProductCode}
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {

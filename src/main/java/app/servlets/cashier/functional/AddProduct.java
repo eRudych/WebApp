@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * Implements the addition of the product in the check
+ */
 public class AddProduct extends FunctionalCashier {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -17,6 +20,10 @@ public class AddProduct extends FunctionalCashier {
         requestDispatcher.forward(req, resp);
     }
 
+    /**
+     * This method adds the product to the check
+     *  using the entered productName or productCode
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {

@@ -14,6 +14,4 @@ public class Merchandise {
 
     private Merchandise() {
     }
-
-    private void addProductToBd(){}
 }

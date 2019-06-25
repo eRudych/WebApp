@@ -30,19 +30,20 @@ public class InteractDBTest {
      */
     @org.junit.Test
     public void addProduct() {
-        Product product=new Product("Milk",5555,14);
-        boolean result=InteractDB.getInstance().addProduct(product);
-        assertEquals(false,result);
+        Product product = new Product("Milk", 5555, 14);
+        boolean result = InteractDB.getInstance().addProduct(product);
+        assertEquals(false, result);
     }
+
     /**
      * test for method {@link InteractDB#addProduct(Product)} addProduct(product Product)}
      * expected is true, analogy with {@link #addProduct()}
      */
     @org.junit.Test
     public void addProduct1() {
-        Product product=new Product("Test",0000,90);
-        boolean result=InteractDB.getInstance().addProduct(product);
-        assertEquals(true,result);
+        Product product = new Product("Test", 0000, 90);
+        boolean result = InteractDB.getInstance().addProduct(product);
+        assertEquals(true, result);
     }
 
     /**
@@ -51,38 +52,41 @@ public class InteractDBTest {
      */
     @org.junit.Test
     public void createCheck() {
-        int expected=InteractDB.getInstance().getMaxIdForChecks()+1;
-        int result=InteractDB.getInstance().createCheck(1);
-        assertEquals(expected,result);
+        int expected = InteractDB.getInstance().getMaxIdForChecks() + 1;
+        int result = InteractDB.getInstance().createCheck(1);
+        assertEquals(expected, result);
     }
+
     /**
      * test for method {@link InteractDB#getMaxIdForChecks()} getMaxIdForChecks()}
      */
     @org.junit.Test
     public void getMaxIdForChecks() {
-        int expected=InteractDB.getInstance().getMaxIdForChecks()+1;
+        int expected = InteractDB.getInstance().getMaxIdForChecks() + 1;
         createCheck();
-        int result=InteractDB.getInstance().getMaxIdForChecks();
-        assertEquals(expected,result);
+        int result = InteractDB.getInstance().getMaxIdForChecks();
+        assertEquals(expected, result);
     }
+
     /**
      * test for method {@link InteractDB#addingToDocumentation(int, Integer, Integer) addingToDocumentation(int numberOperation, Integer idCashier, Integer idCheck)
      * expected is false, because if(numberOperaion>6) return false;
      */
     @org.junit.Test
     public void addingToDocumentation() {
-        boolean result=InteractDB.getInstance().addingToDocumentation(7,1,1);
-        assertEquals(false,result);
+        boolean result = InteractDB.getInstance().addingToDocumentation(7, 1, 1);
+        assertEquals(false, result);
     }
+
     /**
      * test for method {@link InteractDB#removeCheck(int)}  removeCheck(int idCheck)
      * expected is true, because it is expected to work correctly method;
      */
     @org.junit.Test
     public void removeCheck() {
-        int idCheck=InteractDB.getInstance().getMaxIdForChecks();
-        boolean result=InteractDB.getInstance().removeCheck(idCheck);
-        assertEquals(true,result);
+        int idCheck = InteractDB.getInstance().getMaxIdForChecks();
+        boolean result = InteractDB.getInstance().removeCheck(idCheck);
+        assertEquals(true, result);
     }
 
 }

@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * This class create new check into DB
+ * writes this check to the particular cashier
+ */
 public class OpenCheck extends FunctionalCashier {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -17,6 +21,9 @@ public class OpenCheck extends FunctionalCashier {
         requestDispatcher.forward(req, resp);
     }
 
+    /**
+     * idCashier - user selects
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {

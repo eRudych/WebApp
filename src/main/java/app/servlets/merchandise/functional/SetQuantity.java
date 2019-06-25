@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * This class sets the amount of product to the storage
+ */
 public class SetQuantity extends FunctionalMerchandise {
 
     @Override
@@ -19,6 +22,9 @@ public class SetQuantity extends FunctionalMerchandise {
 
     }
 
+    /**
+     * newAmount, code - user selects
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {

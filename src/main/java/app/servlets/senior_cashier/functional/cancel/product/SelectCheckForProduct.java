@@ -17,11 +17,14 @@ public class SelectCheckForProduct extends FunctionalSeniorCashier {
         requestDispatcher.forward(req, resp);
     }
 
+    /**
+     * check - (checkId) user selects
+     * storages the value of the checkId in the class {@link app.servlets.senior_cashier.FunctionalSeniorCashier.SelectCheckId}
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             FunctionalSeniorCashier.SelectCheckId.getInstance().setCheckId(Integer.parseInt(req.getParameter("check")));
-            System.out.println(Integer.parseInt(req.getParameter("check")));
             doGetAfterPost(req, resp);
         } catch (Exception ex) {
             //getLogic().logError("SelectCheckForProduct",ex);

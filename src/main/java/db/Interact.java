@@ -25,8 +25,6 @@ public interface Interact {
 
     int getMaxIdForChecks();
 
-    void selectSeniorCashier(int id);
-
     boolean addingToDocumentation(int numberOperation, Integer idCashier, Integer idCheck);
 
     boolean removeCheck(int idCheck);

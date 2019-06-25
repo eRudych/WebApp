@@ -49,6 +49,10 @@ public class InteractDB implements Interact {
         }
     }
 
+    /**
+     * @param sqlCommand
+     * @return - the completed request in the database or not
+     */
     boolean setSQLCommandCached(String sqlCommand) {
         try {
             cachedRowSet.setCommand(sqlCommand);
@@ -60,6 +64,10 @@ public class InteractDB implements Interact {
         return true;
     }
 
+    /**
+     * @param product - entity {@link Product}
+     * @return - the completed request in the database or not
+     */
     @Override
     public boolean addProduct(Product product) {
         String sqlCommandProduct = "INSERT INTO products VALUE (" + product.getCode() + ",'" + product.getName() + "'," + product.getPrice() + ");";
@@ -68,6 +76,11 @@ public class InteractDB implements Interact {
     }
 
 
+    /**
+     * @param amount - amount of product
+     * @param code   -code of product
+     * @return - the completed request in the database or not
+     */
     @Override
     public boolean setQuantity(int amount, int code) {
         String sqlCommandStorage = "UPDATE storage_for_products SET Amount=" + amount + " WHERE ProductCode=" + code + ";";
@@ -75,6 +88,10 @@ public class InteractDB implements Interact {
     }
 
 
+    /**
+     * @param idCashier - (only cashier can create the check)
+     * @return - created check id
+     */
     @Override
     public int createCheck(int idCashier) {
         String sqlCommandAddCheck = "INSERT INTO checks (IdCashier) VALUES (" + idCashier + ");";
@@ -83,6 +100,13 @@ public class InteractDB implements Interact {
         return id;
     }
 
+    /**
+     * @param resultSet
+     * @param code      - code of product
+     * @param amount    - can become 0 or amountStorage, if amountStorage<amount
+     * @param id        - check id
+     * @return - - the completed request in the database or not
+     */
     @Override
     public boolean addProduct(ResultSet resultSet, int code, int amount, int id) {
         int amountStorage = 0;
@@ -125,6 +149,12 @@ public class InteractDB implements Interact {
         return productList;
     }
 
+    /**
+     * @param code   -code of product
+     * @param amount - amount of product into the check
+     * @param id     - check id
+     * @return - - the completed request in the database or not
+     */
     @Override
     public boolean addProduct(int code, int amount, int id) {
         Savepoint savepoint = null;
@@ -149,6 +179,12 @@ public class InteractDB implements Interact {
         return true;
     }
 
+    /**
+     * @param name   - product name
+     * @param amount - amount of product into the check
+     * @param id     - check id
+     * @return - the completed request in the database or not
+     */
     @Override
     public boolean addProduct(String name, int amount, int id) {
         Savepoint savepoint = null;
@@ -177,6 +213,9 @@ public class InteractDB implements Interact {
         return true;
     }
 
+    /**
+     * @return number of the last check in the table "checks"
+     */
     @Override
     public int getMaxIdForChecks() {
         int id = 0;
@@ -193,11 +232,12 @@ public class InteractDB implements Interact {
         }
     }
 
-    @Override
-    public void selectSeniorCashier(int id) {
-
-    }
-
+    /**
+     * @param numberOperation - can take values ​​from 1 to 5
+     * @param idCashier
+     * @param idCheck
+     * @return - the completed request in the database or not
+     */
     @Override
     public boolean addingToDocumentation(int numberOperation, Integer idCashier, Integer idCheck) {
         switch (numberOperation) {
@@ -224,6 +264,10 @@ public class InteractDB implements Interact {
     }
 
 
+    /**
+     * @param idCheck for remove from tables
+     * @return - the completed request in the database or not
+     */
     @Override
     public boolean removeCheck(int idCheck) {
         String sqlCommandRemoveFromChecks = "DELETE FROM checks WHERE Id=" + idCheck + "";
@@ -247,6 +291,11 @@ public class InteractDB implements Interact {
         return true;
     }
 
+    /**
+     * @param idCheck   need to select the product
+     * @param idProduct for remove from table
+     * @return - the completed request in the database or not
+     */
     @Override
     public boolean removeProduct(int idCheck, int idProduct) {
         String sqlCommandRemoveFromCheckContents = "DELETE FROM check_contents WHERE IdCheck=" + idCheck + " && ProductCode=" + idProduct + "";
