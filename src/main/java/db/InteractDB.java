@@ -80,7 +80,6 @@ public class InteractDB implements Interact {
         String sqlCommandAddCheck = "INSERT INTO checks (IdCashier) VALUES (" + idCashier + ");";
         setSQLCommandCached(sqlCommandAddCheck);
         int id = getMaxIdForChecks();
-        System.out.println("hrrr" + id);
         return id;
     }
 

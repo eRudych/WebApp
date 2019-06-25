@@ -35,7 +35,7 @@
         </label>
 
     </p>
-    <input class="w3-input w3-animate-input w3-border w3-round-large" type="number" name="amount" min="0" value="${amount}"
+    <input class="w3-input w3-animate-input w3-border w3-round-large" type="number" name="amount"  value="${amount}"
            required>
     <br>
     <button type="Add" class="w3-btn w3-green w3-round-large w3-margin-bottom">Add</button>
